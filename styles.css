@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #33333370;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.item {
+    max-width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+.item h2 {
+    margin-top: 1rem;
+    
+}
+
+.item p.price {
+    font-weight: bold;
+}
+
+#gold {
+    background-image: url(coin-3462048_1280.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
